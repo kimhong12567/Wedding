@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation - Sreynuth & Kimsoeung</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400&family=Hanuman:wght@400;700&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f9f7f5;
+            color: #333;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+        }
+        
+        .invitation-container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header-image {
+            width: 100%;
+            height: 250px;
+            background-image: url('https://images.unsplash.com/photo-1523438885200-e635ba2c371e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+        }
+        
+        .couple-names {
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            z-index: 2;
+        }
+        
+        .couple-names h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        
+        .couple-names h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+            font-weight: 300;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+        
+        .divider {
+            width: 80px;
+            height: 2px;
+            background: white;
+            margin: 15px auto;
+        }
+        
+        .invitation-content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .guest-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: #c19a6b;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        
+        .invitation-text {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .khmer-text {
+            font-family: 'Hanuman', serif;
+            font-size: 1.2rem;
+            color: #444;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+        
+        .date-time {
+            font-family: 'Hanuman', serif;
+            margin: 30px 0;
+        }
+        
+        .date, .time, .location {
+            margin: 15px 0;
+            font-size: 1.2rem;
+        }
+        
+        .date span, .time span, .location span {
+            display: block;
+            font-size: 1.8rem;
+            color: #222;
+            margin-bottom: 5px;
+        }
+        
+        .map-button {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #c19a6b;
+            color: white;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            border-radius: 4px;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .map-button:hover {
+            background: #b78a56;
+        }
+        
+        .footer {
+            font-size: 0.9rem;
+            color: #999;
+            margin-top: 30px;
+        }
+
+        .khmer-date {
+            font-family: 'Hanuman', serif;
+            font-size: 1.1rem;
+            color: #777;
+            margin-top: 5px;
+        }
+        
+        .location-address {
+            margin-top: 10px;
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Hanuman:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="invitation-container">
+        <div class="header-image">
+            <div class="overlay"></div>
+            <div class="couple-names">
+                <h1>Sreynuth & Kimsoeung</h1>
+                <div class="divider"></div>
+                <h2>Are Getting Married</h2>
+            </div>
+        </div>
+        
+        <div class="invitation-content">
+            <div class="guest-name">
+                To: [Guest's Name]
+            </div>
+            
+            <p class="khmer-text">
+                ដោយមានចិត្តរីករាយអំណរណាស់<br>
+                ហោ ស្រីនុត និង លាង គិមសឿង<br>
+                សូមអញ្ជើញលោកអ្នកអញ្ជើញមកជួបជុំគ្នា<br>
+                ក្នុងពិធីមង្គលការរបស់ពួកយើង<br>
+                ដើម្បីចាប់ផ្តើមជីវិតថ្មីជាមួយគ្នា។
+            </p>
+            
+            <p class="invitation-text">
+                With joyful hearts,<br>
+                Hor Sreynuth and Leang Kimsoeung<br>
+                warmly invite you to celebrate<br>
+                our wedding ceremony<br>
+                as we begin our new life together.
+            </p>
+            
+            <div class="date-time">
+                <div class="date">
+                    <span>ថ្ងៃសៅរ៍ ទី២៥ ខែតុលា ឆ្នាំ២០២៥</span>
+                    <div class="khmer-date">Saturday, October 25th, 2025</div>
+                </div>
+                
+                <div class="time">
+                    <span>៤រសៀល</span>
+                    <div class="khmer-date">4:00 PM ម៉ោង</div>
+                </div>
+                
+                <div class="location">
+                    <span>ភូមិផ្អាវ ឃុំផ្អាវ ស្រុកបាធាយ ខេត្តកំពង់ចាម</span>
+                    <div class="khmer-date">Ph'av village, Ph'av commune, Batheay district, Kampong Cham province</div>
+                    <!-- <div class="location-address">Samdach Sothearos Blvd (3), Phnom Penh</div> -->
+                    
+                    <!-- Working Map Button -->
+                    <a href="https://maps.app.goo.gl/pyxYWaqQ3jGGXctq5" target="_blank" class="map-button">
+                        View Location on Map
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer">
+                Traditional Cambodian attire welcomed | Dinner and celebration to follow<br>
+                <span class="khmer-date">សូមស្លៀកពាក់ឪ្យបានសមរម្យ | មានអាហារពេលល្ងាច</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
